@@ -8,7 +8,7 @@ A simple command-line password manager that stores passwords encrypted with a ma
 
 - Add, retrieve, and delete password entries
 - Data encrypted with master password
-- Uses PBKDF2 for key derivation and AES CBC mode for encryption
+- Uses Password-Based Key Derivation Function 2 (PBKDF2) for key derivation and AES CBC mode for encryption
 - Stores data locally in encrypted form
 
 ## Setup
