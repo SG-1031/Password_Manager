@@ -23,37 +23,37 @@ No, this is normal and usually safe. It means:
 
 ## What to do if you want to avoid this message?
 
-### 1. Run with elevated privileges (if you have permission):
-
-- On Linux/macOS:
-```
-
-sudo pip install -r requirements.txt
-
-```
-
-- On Windows, run Command Prompt as Administrator, then run the install command.
-
-### 2. Use a virtual environment (recommended for Python projects):
-
-- Create a virtual environment:
-```
-
-python -m venv venv
-
-````
-
-- Activate it:
-
-- On Windows:
+  ### 1. Run with elevated privileges (if you have permission):
+  
+  - On Linux/macOS:
   ```
-  venv\Scripts\activate
+  
+  sudo pip install -r requirements.txt
+  
   ```
-
-- On macOS/Linux:
+  
+  - On Windows, run Command Prompt as Administrator, then run the install command.
+  
+  ### 2. Use a virtual environment (recommended for Python projects):
+  
+  - Create a virtual environment:
   ```
-  source venv/bin/activate
-  ```
+  
+  python -m venv venv
+  
+  ````
+  
+  - Activate it:
+  
+  - On Windows:
+    ```
+    venv\Scripts\activate
+    ```
+  
+  - On macOS/Linux:
+    ```
+    source venv/bin/activate
+    ```
 
 - Install packages inside the virtual environment:
 ````
