@@ -50,7 +50,6 @@ python -m venv venv
 ```cmd
 venv\Scripts\activate
 ```
-
   - On macOS/Linux:
 
 ```bash
