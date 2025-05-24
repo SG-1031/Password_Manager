@@ -42,7 +42,7 @@ pip install -r requirements.txt
 python -m venv venv
 ```
 
-- Activate it:
+# Activate it:
 
 - On Windows:
 
