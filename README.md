@@ -50,17 +50,11 @@ A simple command-line password manager that stores passwords encrypted with a ma
 - To start fresh, you can delete `passwords.dat` and `salt.bin`, but you will lose all saved data.
 - Troubleshooting: "Defaulting to user installation because normal site-packages is not writeable"
 
-    ### The message:
-    
-    ```
-    Defaulting to user installation because normal site-packages is not writeable
-    ```
-    
-    means that `pip` doesn't have permission to install packages system-wide (usually because you’re not running it as an administrator or with root privileges). Instead, it installs the packages just for your user account.
+    The message: "Defaulting to user installation because normal site-packages is not writeable." means that `pip` doesn't have permission to install packages system-wide (usually because you’re not running it as an administrator or with root privileges). Instead, it installs the packages just for your user account.
     
     ---
     
-    ### Is this a problem?
+    Is this a problem?
     
     No, this is normal and usually safe. It means:
     
@@ -69,9 +63,9 @@ A simple command-line password manager that stores passwords encrypted with a ma
     
     ---
     
-    ### What to do if you want to avoid this message?
+    What to do if you want to avoid this message?
     
-    #### 1. Run with elevated privileges (if you have permission):
+    1. Run with elevated privileges (if you have permission):
     
     - On Linux/macOS:
     
@@ -84,7 +78,7 @@ A simple command-line password manager that stores passwords encrypted with a ma
     pip install -r requirements.txt
     ```
     
-    #### 2. Use a virtual environment (recommended for Python projects):
+    2. Use a virtual environment (recommended for Python projects):
     
     - Create a virtual environment:
     
@@ -92,7 +86,7 @@ A simple command-line password manager that stores passwords encrypted with a ma
     python -m venv venv
     ```
     
-    #### 3. Activate it:
+    3. Activate it:
     
     - On Windows:
     
@@ -105,7 +99,7 @@ A simple command-line password manager that stores passwords encrypted with a ma
     source venv/bin/activate
     ```
     
-    #### 4. Install packages inside the virtual environment:
+    4. Install packages inside the virtual environment:
     
     ```bash
     pip install -r requirements.txt
