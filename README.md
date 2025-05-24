@@ -37,4 +37,17 @@ A simple command-line password manager that stores passwords encrypted with a ma
 
 ---
 
+## Troubleshooting
+
+- If you enter an incorrect master password, the program will notify you and exit.  
+- To start fresh, you can delete `passwords.dat` and `salt.bin`, but you will lose all saved data.
+
+---
+
+## License
+
+This project is for educational purposes only.
+
+---
+
 © 2025 Subash Gurung
