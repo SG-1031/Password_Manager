@@ -32,9 +32,9 @@ No, this is normal and usually safe. It means:
   
   ```
   
-  - On Windows, run Command Prompt as Administrator, then run the install command.
+  ### 2. On Windows, run Command Prompt as Administrator, then run the install command.
   
-  ### 2. Use a virtual environment (recommended for Python projects):
+  - Use a virtual environment (recommended for Python projects):
   
   - Create a virtual environment:
   ```
