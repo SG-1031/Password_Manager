@@ -28,7 +28,6 @@ No, this is normal and usually safe. It means:
 ```bash
 sudo pip install -r requirements.txt
 ```
-
 - On Windows, run Command Prompt as Administrator, then run:
 
 ```cmd
@@ -45,12 +44,12 @@ python -m venv venv
 
 - Activate it:
 
-  - On Windows:
+- On Windows:
 
 ```cmd
 venv\Scripts\activate
 ```
-  - On macOS/Linux:
+- On macOS/Linux:
 
 ```bash
 source venv/bin/activate
