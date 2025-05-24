@@ -23,7 +23,7 @@ No, this is normal and usually safe. It means:
 
 ## What to do if you want to avoid this message?
 
-  ### 1. Run with elevated privileges (if you have permission):
+  ### Run with elevated privileges (if you have permission):
   
   - On Linux/macOS:
   ```
@@ -32,9 +32,9 @@ No, this is normal and usually safe. It means:
   
   ```
   
-  ### 2. On Windows, run Command Prompt as Administrator, then run the install command.
+  - On Windows, run Command Prompt as Administrator, then run the install command.
   
-  - Use a virtual environment (recommended for Python projects):
+  ### Use a virtual environment (recommended for Python projects):
   
   - Create a virtual environment:
   ```
