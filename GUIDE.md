@@ -26,13 +26,16 @@ Create a project folder and save the following files inside it:
 
 3. **Install Dependencies**  
 Open a terminal or command prompt, navigate to the project folder, and run:  
-
+    ```bash
+   pip install -r requirements.txt
+    
 ---
 
 ## Running the Password Manager
 
 Run the program by typing:  
-
+    ```bash
+    python password_manager.py
 ---
 
 ## How to Use
