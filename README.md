@@ -11,6 +11,13 @@ A simple command-line password manager that stores passwords encrypted with a ma
 - Uses Password-Based Key Derivation Function 2 (PBKDF2) for key derivation and AES CBC mode for encryption
 - Stores data locally in encrypted form
 
+## Install the `pycryptodome` library
+
+  This script uses the Crypto package from PyCryptodome for encryption and key derivation. You can install it using pip:
+
+  ```bash
+  pip install pycryptodome
+
 ## Setup
 
 1. Install dependencies:
