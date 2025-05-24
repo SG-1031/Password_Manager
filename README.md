@@ -15,8 +15,8 @@ A simple command-line password manager that stores passwords encrypted with a ma
 
   This script uses the Crypto package from PyCryptodome for encryption and key derivation. You can install it using pip:
 
-  ```bash
-  pip install pycryptodome
+    ```bash
+    pip install pycryptodome
 
 ## Setup
 
