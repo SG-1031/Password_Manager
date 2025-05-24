@@ -3,9 +3,7 @@
 ## The message:
 
 ```
-
 Defaulting to user installation because normal site-packages is not writeable
-
 ```
 
 means that `pip` doesn't have permission to install packages system-wide (usually because you’re not running it as an administrator or with root privileges). Instead, it installs the packages just for your user account.
@@ -23,46 +21,46 @@ No, this is normal and usually safe. It means:
 
 ## What to do if you want to avoid this message?
 
-  ### Run with elevated privileges (if you have permission):
-  
-  - On Linux/macOS:
-  ```
-  
-  sudo pip install -r requirements.txt
-  
-  ```
-  
-  - On Windows, run Command Prompt as Administrator, then run the install command.
-  
-  ### Use a virtual environment (recommended for Python projects):
-  
-  - Create a virtual environment:
-  ```
-  
-  python -m venv venv
-  
-  ````
-  
-  - Activate it:
-  
+### 1. Run with elevated privileges (if you have permission):
+
+- On Linux/macOS:
+
+```bash
+sudo pip install -r requirements.txt
+```
+
+- On Windows, run Command Prompt as Administrator, then run:
+
+```cmd
+pip install -r requirements.txt
+```
+
+### 2. Use a virtual environment (recommended for Python projects):
+
+- Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+- Activate it:
+
   - On Windows:
-    ```
-    venv\Scripts\activate
-    ```
-  
+
+```cmd
+venv\Scripts\activate
+```
+
   - On macOS/Linux:
-    ```
-    source venv/bin/activate
-    ```
+
+```bash
+source venv/bin/activate
+```
 
 - Install packages inside the virtual environment:
-````
 
+```bash
 pip install -r requirements.txt
-
 ```
 
 Using a virtual environment keeps dependencies isolated and avoids permission issues.
-```
-
-You can copy-paste this entire content into your `troubleshoot.md` file on GitHub.
