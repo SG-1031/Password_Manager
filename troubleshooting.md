@@ -55,7 +55,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-- Install packages inside the virtual environment:
+# Install packages inside the virtual environment:
 
 ```bash
 pip install -r requirements.txt
