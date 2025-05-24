@@ -13,7 +13,7 @@ A simple command-line password manager that stores passwords encrypted with a ma
 
 ## Install the `pycryptodome` library
 
-  This script uses the Crypto package from PyCryptodome for encryption and key derivation. You can install it using pip:
+-  This script uses the Crypto package from PyCryptodome for encryption and key derivation. You can install it using pip:
 
     ```bash
     pip install pycryptodome
