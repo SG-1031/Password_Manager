@@ -42,7 +42,7 @@ pip install -r requirements.txt
 python -m venv venv
 ```
 
-# Activate it:
+### Activate it:
 
 - On Windows:
 
@@ -55,7 +55,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-# Install packages inside the virtual environment:
+### Install packages inside the virtual environment:
 
 ```bash
 pip install -r requirements.txt
