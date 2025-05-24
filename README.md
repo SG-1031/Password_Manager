@@ -15,11 +15,13 @@ A simple command-line password manager that stores passwords encrypted with a ma
 
 1. Install dependencies:
    
-'''pip install -r requirements.txt
+'''bash
+pip install -r requirements.txt
 
 3. Run the password manager:
 
-'''python password_manager.py'
+''' bash
+python password_manager.py'
 
 ## Usage
 
