@@ -66,47 +66,47 @@ A simple command-line password manager that stores passwords encrypted with a ma
     What to do if you want to avoid this message?
     
     1. Run with elevated privileges (if you have permission):
-    
-    - On Linux/macOS:
-    
-    ```bash
-    sudo pip install -r requirements.txt
-    ```
-    - On Windows, run Command Prompt as Administrator, then run:
-    
-    ```cmd
-    pip install -r requirements.txt
-    ```
-    
+        
+        - On Linux/macOS:
+        
+        ```bash
+        sudo pip install -r requirements.txt
+        ```
+        - On Windows, run Command Prompt as Administrator, then run:
+        
+        ```cmd
+        pip install -r requirements.txt
+        ```
+        
     2. Use a virtual environment (recommended for Python projects):
     
-    - Create a virtual environment:
-    
-    ```bash
-    python -m venv venv
-    ```
-    
+        - Create a virtual environment:
+        
+        ```bash
+        python -m venv venv
+        ```
+        
     3. Activate it:
-    
-    - On Windows:
-    
-    ```cmd
-    venv\Scripts\activate
-    ```
-    - On macOS/Linux:
-    
-    ```bash
-    source venv/bin/activate
-    ```
-    
+        
+        - On Windows:
+        
+        ```cmd
+        venv\Scripts\activate
+        ```
+        - On macOS/Linux:
+        
+        ```bash
+        source venv/bin/activate
+        ```
+        
     4. Install packages inside the virtual environment:
-    
-    ```bash
-    pip install -r requirements.txt
-    ```
-    
-    Using a virtual environment keeps dependencies isolated and avoids permission issues.
-    
+        
+        ```bash
+        pip install -r requirements.txt
+        ```
+        
+        Using a virtual environment keeps dependencies isolated and avoids permission issues.
+        
 
 ---
 
